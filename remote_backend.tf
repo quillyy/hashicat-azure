@@ -4,8 +4,8 @@
 
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
     organization = "Q-Company"
+
     workspaces {
       name = "hashicat-azure"
     }
